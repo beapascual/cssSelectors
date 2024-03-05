@@ -1,0 +1,34 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.mainContainer{
+	display: flex;
+	gap: 10vw;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.mainContainer div{
+	border-style: dashed;
+	border-width: 1vmin;
+	border-color: black;
+	padding: 5vh;
+	background-color: darkred;
+}
+
+h1, p{
+	color: blueviolet;
+	font-family: fantasy;
+}
+
+.mainContainer>div{
+	background-color: lightsteelblue;
+	color: white;
+}
+
+.face:hover{
+	background-color: seagreen;
+}
